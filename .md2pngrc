@@ -19,4 +19,3 @@ template: >
     ${fragment}
   </body>
   </html>
-foo: 123
