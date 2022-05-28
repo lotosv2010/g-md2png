@@ -1,0 +1,43 @@
+{
+  "name": "g-md2png",
+  "version": "0.1.1",
+  "description": "Markdown to PNG",
+  "keywords": [
+    "Markdown",
+    "cli",
+    "g-md2png"
+  ],
+  "homepage": "https://github.com/lotosv2010/g-md2png",
+  "bugs": {
+    "url": "https://github.com/lotosv2010/g-md2png/issues"
+  },
+  "license": "MIT",
+  "author": "robin",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "main": "lib/index.js",
+  "bin": "bin/g-md2png.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lotosv2010/g-md2png.git"
+  },
+  "scripts": {},
+  "engines": {
+    "node": ">=8"
+  },
+  "devDependencies": {
+    "chalk": "4",
+    "commander": "^9.2.0",
+    "cosmiconfig": "^7.0.1",
+    "marked": "^4.0.16",
+    "prompts": "^2.4.2",
+    "puppeteer": "^14.1.1",
+    "puppeteer-core": "^14.1.1"
+  },
+  "preferGlobal": true
+}
